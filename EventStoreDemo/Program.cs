@@ -1,5 +1,6 @@
 ﻿using EventStore.Client;
 using EventStoreDemo;
+using EventStoreDemo.Aggregates;
 
 var tokenSource = new CancellationTokenSource();
 const string connectionString = "esdb://admin:changeit@localhost:2113?tls=false&tlsVerifyCert=false";
